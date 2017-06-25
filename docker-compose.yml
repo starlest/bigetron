@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  bigetron:
+    image: bigetron
+    build:
+      context: ./Bigetron
+      dockerfile: Dockerfile

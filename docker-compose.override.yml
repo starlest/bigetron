@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  bigetron:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
