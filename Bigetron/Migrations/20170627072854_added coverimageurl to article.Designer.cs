@@ -8,9 +8,10 @@ using Bigetron.Data;
 namespace Bigetron.Migrations
 {
     [DbContext(typeof(BTRDbContext))]
-    partial class BTRDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170627072854_added coverimageurl to article")]
+    partial class addedcoverimageurltoarticle
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.2")

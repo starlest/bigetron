@@ -1,7 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bigetron.Core\Bigetron.Core.csproj" />
+    <ProjectReference Include="..\Bigetron.Data\Bigetron.Data.csproj" />
+  </ItemGroup>
 
 </Project>

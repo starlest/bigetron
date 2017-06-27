@@ -29,6 +29,12 @@
         public DateTime Date { get; set; }
 
         /// <summary>
+        /// Gets or sets cover image url
+        /// </summary>
+        [Required, MaxLength(500)]
+        public string CoverImageUrl { get; set; }
+
+        /// <summary>
         /// Gets or sets content
         /// </summary>
         [Required]

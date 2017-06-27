@@ -1,7 +1,6 @@
 ﻿namespace Bigetron
 {
     using System;
-    using System.Diagnostics;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Configuration;
@@ -18,6 +17,7 @@
     using Microsoft.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore.Infrastructure;
     using Microsoft.IdentityModel.Tokens;
+    using Services.Articles;
 
     public class Startup
     {
@@ -68,6 +68,9 @@
 
             // Add Repository
             services.AddScoped<IRepository, EntityFrameworkRepository<BTRDbContext>>();
+
+            // Add Services
+            services.AddScoped<IArticleService, ArticleService>();
 
             // Register the OpenIddict services.
             services.AddOpenIddict()

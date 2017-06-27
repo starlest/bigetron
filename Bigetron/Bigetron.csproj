@@ -30,7 +30,7 @@
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bigetron.Data\Bigetron.Data.csproj" />
+    <ProjectReference Include="..\Bigetron.Services\Bigetron.Services.csproj" />
   </ItemGroup>
 
 </Project>
