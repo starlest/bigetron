@@ -133,7 +133,7 @@
                     Title = "Welcome!",
                     AuthorId = author_Bigetron.Id,
                     Date = new DateTime(2017, 6, 7),
-                    CoverImageUrl = "assets/img/news-default.jpg",
+                    CoverImageUrl = "https://s3-ap-southeast-1.amazonaws.com/bigetron/news-default.jpg",
                     Content = "<p>Welcome to Bigetron eSports official website!</p> <p>Stay tuned for more content!"
                 },
                 new Article
@@ -141,8 +141,8 @@
                     Title = "Bintang “ßinx” Pamungkas Bergabung Degan Bigetron!",
                     AuthorId = author_Bigetron.Id,
                     Date = new DateTime(2017, 6, 11),
-                    CoverImageUrl = "assets/img/binx.jpg",
-                    Content = "<div class=\"mb-3\"><img height=\"300\" width=\"300\" src=\"assets/img/binx.jpg\"></div> " +
+                    CoverImageUrl = "https://s3-ap-southeast-1.amazonaws.com/bigetron/players/binx.jpg",
+                    Content = "<div class=\"mb-3\"><img height=\"300\" width=\"300\" src=\"https://s3-ap-southeast-1.amazonaws.com/bigetron/players/binx.jpg\"></div> " +
                               "<p>Bintang Pamungkas yang dikenal sebagai pemain senior di League of Legends Garuda Series (LGS), akan bermain sebagai midlaner Bigetron untuk menggantikan Venus. Bintang Pamungkas yang dikenal sebagai pemain senior di League of Legends Garuda Series (LGS), akan bermain sebagai midlaner Bigetron untuk menggantikan Venus. Pemain Ekko yang handal ini akan menggantikan Venus mulai dari week 3 dikarenakan beberapa halangan yang di alami Venus.</p> " +
                               "<p>Pertandingan LGS Summer 2017 dapat disaksikan melalui livestream di channel youtube League of Legends Indonesia. Info mengenai bisa didapatkan melalui dari <a href=\"lolesports.garena.co.id\" target=\"_blank\">lolesports.garena.co.id</a>.</p>"
                 },
@@ -151,18 +151,18 @@
                     Title = "LoL Guide: Twisted Fate",
                     AuthorId = author_Nierr.Id,
                     Date = new DateTime(2017, 6, 25),
-                    CoverImageUrl = "assets/img/twisted-fate.jpg",
+                    CoverImageUrl = "https://s3-ap-southeast-1.amazonaws.com/bigetron/lol-twisted-fate-guide/tf.jpg",
                     Content = "<p>Hey Guys! Pada kesempatan kali ini, saya akan membagikan sedikit tips untuk bermain Twisted Fate. Twisted Fate merupakan salah satu champion yang biasanya dimainkan di mid lane dengan menggunakan kartu untuk skill dan auto attacknya. Bermain Twisted Fate sebenarnya gampang-gampang susah. Kenapa? Karena penggunaan skill Pick A Card yang random menyebabkan sejumlah pemain kesulitan kapan untuk mengambil kartu berwarna biru, merah ataupun kuning terutama ketika di gank oleh jungler lawan.</p>" +
                               "<p>Ok, Pertama sebelum bermain kamu perlu mempersiapkan Runes dan Masteries terlebih dahulu.</p><br>" +
                               "<p class=\"font-weight-bold\">Runes</p>" +
                               "<p>Ada beberapa runes yang biasa saya gunakan:</p>" +
-                              "<img class=\"img-fluid\" src=\"assets/img/tf-runes.jpg\"><br><br>" +
+                              "<img class=\"img-fluid\" src=\"https://s3-ap-southeast-1.amazonaws.com/bigetron/lol-twisted-fate-guide/tf-runes.jpg\"><br><br>" +
                               "<p>Quintessence: Movement Speed x3</p>" +
                               "<p>Mark: Magic Penetration x9</p>" +
                               "<p>Seal: Scaling Health x9 (Jika melawan AP champion) atau Armor x9 (Jika melawan AD champion)</p>" +
                               "<p>Glyph: Scaling Cooldown Reduction x6 + Magic Resist x3</p><br>" +
                               "<p class=\"font-weight-bold\">Masteries</p>" +
-                              "<img class=\"img-fluid\" src=\"assets/img/tf-masteries.jpg\"><br><br>" +
+                              "<img class=\"img-fluid\" src=\"https://s3-ap-southeast-1.amazonaws.com/bigetron/lol-twisted-fate-guide/tf-masteries.jpg\"><br><br>" +
                               "<p>Kita mengambil Stormraider ketika kalian ingin menjadi mage utility, dan kalian ingin kiting-kiting dari musuh kalian. Namun,jika kalian mengambil damage lebih, ambil Thunderlord. Decree. Ini akan membantu kalian untuk burst satu orang langsung.</p><br>" +
                               "<p class=\"font-weight-bold\">Item Build</p>" +
                               "<ul><li>Starter tentu saja dimulai dengan Doran ring serta 2x potion.</li><li>Lalu, jika memungkinkan untuk membawa pulang uang 1050-1200, kalian dapat meneruskan untuk membeli sheen (more AP + CDR dan kalian tidak kesulitan melawan midlaner musuh) / armseekers guard (resep zonya, ketika melawan ad champion dan kesulitan melawan mereka) / catalyst yang 1100 buat resep Rod of Ages or Hextech GLP-800). Jika kesulitan dan harus pulang lebih awal, belilah dark seal + refillable potion (500gold).</li><li>Item terpenting adalah Lich Bane dan Rod of Ages karena Twisted Fate membutuhkan HP dan MP yang cukup banyak untuk dive or mobile.</li><li>Kapan membeli ROA atau Hextech GLP-800? Jika kalian ingin sustain lebih kalian dapat membeli ROA namun jika kalian ingin bermain menjadi seorang Assassin kalian dapat membeli Hextech GLP-800.</li>\r\n\t\t\t\t\t<li>Sepatu? Boots untuk CDR, 40% CDR = Forever Stun</li><li>Jangan lupa juga kalian untuk membeli Void Staff serta Luden Echo’s untuk movement speed tambahan atau Rabadon Deathcap untuk AP yang lebih banyak lagi.</li></ul><br>" +
@@ -177,20 +177,20 @@
                     Title = "LoL Guide: Syndra",
                     AuthorId = author_Nierr.Id,
                     Date = new DateTime(2017, 6, 27),
-                    CoverImageUrl = "assets/img/syndra.jpg",
+                    CoverImageUrl = "https://s3-ap-southeast-1.amazonaws.com/bigetron/lol-syndra-guide/syndra.jpg",
                     Content = "<p class=\"font-weight-bold\">Syndra Guide: \"So Much Untapped Power!\"</p>" +
                               "<p>Next champion yang akan saya bahas adalah Syndra. Salah satu champion di mid lane yang sering di pick/ban oleh tim-tim di dunia kompetitif. Kenapa ya? Karena Syndra merupakan Champion dengan kemampuan potensial burst yang sangat besar. Syndra dapat membunuh AD Carry dengan sangat mudah. Seperti biasa, kalian harus mempersiapkan Runes dan Masteries terlebih dahulu.</p><br>" +
                               "<p class=\"font-weight-bold\">Spells</p>" +
-                              "<img class=\"img-fluid\" src=\"assets/img/ignite-flash.jpg\"><br><br>" +
+                              "<img class=\"img-fluid\" src=\"https://s3-ap-southeast-1.amazonaws.com/bigetron/lol-syndra-guide/ignite-flash.jpg\"><br><br>" +
                               "<p>Ignite dan Flash for secure kill</p><br>" +
                               "<p class=\"font-weight-bold\">Runes</p>" +
-                              "<img class=\"img-fluid\" src=\"assets/img/syndra-runes.jpg\"><br><br>" +
+                              "<img class=\"img-fluid\" src=\"https://s3-ap-southeast-1.amazonaws.com/bigetron/lol-syndra-guide/syndra-runes.jpg\"><br><br>" +
                               "<p>Quintessence: Ability Power x3</p>" +
                               "<p>Mark: Magic Penetration x9</p>" +
                               "<p>Seal: Scaling Health x9</p>" +
                               "<p>Glyph: Scaling Cooldown Reduction x6 + Magic Resist x3</p><br>" +
                               "<p class=\"font-weight-bold\">Masteries</p>" +
-                              "<img class=\"img-fluid\" src=\"assets/img/syndra-masteries.jpg\"><br><br>" +
+                              "<img class=\"img-fluid\" src=\"https://s3-ap-southeast-1.amazonaws.com/bigetron/lol-syndra-guide/syndra-masteries.jpg\"><br><br>" +
                               "<p>Sama seperti guide sebelumnya, Syndra menggunakan Masteries pada umumnya dengan Thunderlord’s Decree sebagai potensial burstnya.</p><br>" +
                               "<p class=\"font-weight-bold\">Item Build</p>" +
                               "<ul><li>Starter Items: Doran Ring + Potion x2.</li><li>Starter Items: Doran Ring + Potion x2.</li><li>Kemudian, dapat dilanjutkan dengan membeli Lost Chapter untuk sustain Mana di lane.</li><li>Upgrade Lost Chapter kalian menjadi Morellonomicon disertai membeli Boots of Speed.</li><li>Lalu, beli Haunting Guise untuk bonus AP dan Magic Penetration, jangan lupa untuk diupgrade ke Liandry’s Torment dan sepatu menjadi Sorcerers Shoes.</li><li>Next, kalian dapat memilih untuk membeli Void Staff atau Rabadon’s Deathcap tergantung situasi game kalian. Belilah Void Staff jika musuh kalian telah menumpuk sejumlah magic resist atau Rabadon’s Deathcap jika kalian unggul jauh dari musuh dan ingin melakukan aksi solo kill.</li><li>Jangan lupa juga untuk membeli item defensive (seperti, Banshee atau Zhonya) agar skor death kalian tetap 0.</li><li>Beli Elixir untuk last teamfight!. :D</li></ul><br>" +

@@ -72,6 +72,9 @@
             // Add Services
             services.AddScoped<IArticleService, ArticleService>();
 
+            // Add Message Service for DI
+            services.AddSingleton<MessageService>();
+
             // Register the OpenIddict services.
             services.AddOpenIddict()
                 // Register the Entity Framework stores.
