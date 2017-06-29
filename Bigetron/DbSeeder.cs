@@ -200,6 +200,54 @@
                               "<div class=\"embed-responsive embed-responsive-16by9\"><iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/YRP_ei3pmi8\"></iframe></div><br><br>" +
                               "Ada banyak combo yang dapat dilakukan dengan Syndra. Agar lebih mudah dipahami, kalian dapat melihat video lama milik Bjergsen, perhatikan bagaimana cara Bjergsen memainkan Combo dari Syndra.<br><br>" +
                               "Bermain Syndra sangatlah menyenangkan, dengan berbagai macam combo serta burst yang sangat tinggi membuat Syndra menjadi Champion yang sering saya gunakan. Nantikan guide dari saya selanjutnya yah!"
+                },
+                new Article
+                {
+                    Title = "Welcome Jennifer \"Panini\" Pingkan!",
+                    AuthorId = author_Bigetron.Id,
+                    Date = new DateTime(2017, 6, 28),
+                    CoverImageUrl = "https://s3-ap-southeast-1.amazonaws.com/bigetron/players/pingkan.jpg",
+                    Content = "<p>Hellooo guys! Bigetron akan kehadiran seorang streamer wanita nih, dia bernama <a href=\"https://www.facebook.com/Jennifer-Pannini-Pingkan-273094776498937/\" target=\"_blank\">Jennifer \"Pannini\" Pingkan</a>. Nantinya Jennifer akan melakukan streaming beberapa games bersama Bigetron.</p>" +
+                              "<p>Jennifer akan melakukan streaming beberapa games, salah satunya adalah League of Legends. Penulis juga melakukan sedikit wawancara, berikut cuplikan wawancara bersama Jennifer.</p><br><br>" +
+                              "<p>(P: Penulis; J: Jennifer)</p><hr>" +
+                              "<p>P: Selamat siang mba Jennifer. Saya Aris penulis dari Bigetron.</p>" +
+                              "<p>J: Hallooo, iya salam kenal.</p><br>" +
+                              "<p>P: Mba Jennifer nanti berencana jadi streamer yah?</p>" +
+                              "<p>J: Iya.</p><br>" +
+                              "<p>P: Sudah pernah jadi streamer sebelumnya?</p>" +
+                              "<p>J: Belum, baru kali ini hehe.</p><br>" +
+                              "<p>P: Apa yang membuat mba Jennifer tertarik menjadi seorang streamer?</p>" +
+                              "<p>J: Tertarik mencoba hal yang baru aja. Selain itu, sekarang sudah banyak streamer saat ini. Jadinya, ingin mencoba berkompetitif dengan yang lain juga.</p><br>" +
+                              "<p>P: Nanti streaming games apa aja nih ceritanya?</p>" +
+                              "<p>J: Untuk saat ini, mau streaming LOL, dota2, CSGO dulu. Tapi nanti masih bisa nambah lagi cuma belum kepikiran aja hehe.</p><br>" +
+                              "<p>P: Jadwalnya sendiri gimana? Apa sudah ada?</p>\r\n<p>J: Jadwal streamingnya nanti hari Selasa, Kamis, Jumat jam 6 - 9 malem.</p><hr><br>" +
+                              "<p>Itulah wawancara singkat bersama Jennifer Pingkan. Jangan lewatkan streaming langsung bersama Jennifer Pingkan yah di channel youtube <a href=\"https://www.youtube.com/channel/UCIJ01RpgMcFu6vrViEy2irQ\" target=\"_blank\">Bigetron TV</a> yang akan dimulai pada tanggal 30 Juni 2017 jam 6! Don\'t miss it ya guys!</p>"
+                },
+                new Article
+                {
+                    Title = "Welcome Rangga \"Xer1zo\" Hanan!",
+                    AuthorId = author_Bigetron.Id,
+                    Date = new DateTime(2017, 6, 29),
+                    CoverImageUrl = "https://s3-ap-southeast-1.amazonaws.com/bigetron/players/rangga.jpeg",
+                    Content = "<p>Sore guys! Seperti yang sudah kalian baca kemarin, Jennifer \"Pannini\" Pingkan akan menjadi streamer tanggal 30 nanti. Nah, selain Jennifer, Bigetron eSports juga kedatangan salah satu streamer baru nih guys. Dia akan fokus streaming pada game Counter Strike: Global Offensive (CS:GO). Siapakah dia?</p>" +
+                              "<p>Dia bernama <a href=\"https://www.facebook.com/xer1zo/\" target=\"_blank\">Rangga \"Xer1zo\" Hanan</a>. Sudah pada kenal belum sama Rangga? Kalau belum, ini sedikit informasi tentang Rangga. Rangga Hanan ini salah satu pemain Counter Strike Online (CSO) dan CS:GO. Rangga sempat melakukan streaming untuk tim ExOne Gaming namun ia melakukanya secara personal.</p>" +
+                              "<p>Yuk, kita lihat hasil wawancara penulis dengan Rangga Hanan.</p><br><br>" +
+                              "<p>(P: Penulis; R: Rangga)</p><hr>" +
+                              "<p>P: Selamat siang mas Rangga. Saya Aris penulis dari Bigetron eSports. Boleh meminta waktunya sebentar?</p>" +
+                              "<p>R: Hey, mas Aris. Boleh mas, silahkan.</p><br>" +
+                              "<p>P: Mas Rangga, apa dulu sudah pernah menjadi seorang streamer sebelumnya?</p>" +
+                              "<p>R: Dulu sih pernah. Sebelumnya jadi streamer CSO dan CSGO untuk tim ExOne. Tapi bukan jadi profesional streamer tapi masih sebatas jadi personal streamer saja.</p><br>" +
+                              "<p>P: Ohh. Apa yang menjadi motivasi mas Rangga untuk menjadi seorang streamer?</p>" +
+                              "<p>R: Ingin mengenalkan dan mendekatkan diri dengan fans di game mas.</p><br>" +
+                              "<p>P: Wah, keren mas Rangga.. Nanti streaming game apa aja mas rencananya?</p>" +
+                              "<p>R: Dulu sih CSO dan CSGO saja. Di Bigetron nanti, rencananya mau fokus ke CSGO saja dulu.</p><br>" +
+                              "<p>P: Apakah sudah ada jadwal streamingnya mas?</p>" +
+                              "<p>R: Sudah ada, enaknya sih nanti di hari senin dan selasa itu jam 6 sampai jam 9 malem. Terus, nanti juga ada di hari sabtu mas di jam 2 siang sampai 5 sore.</p><br>" +
+                              "<p>P: Wih.. mantab. Mas Rangga tadi ada cerita ingin lebih mendekatkan diri kepada fans. Ada pesan yang ingin disampaikan kepada para fans?</p>" +
+                              "<p>R: Hmm.. Pesannya sih saya ingin memajukan Bigetron sebagai salah satu organisasi eSports terbaik di Indonesia serta kedepannya eSports di Indonesia dapat menjadi lahan pekerjaan utama seperti negara-negara luar bukan lagi sebagai hobi semata. Jadi, jangan lupa tonton saya ya guys!</p><br>" +
+                              "<p>P: Hahaha. mantab kali pesannya. Baiklah, terima kasih mas Rangga untuk waktunya.</p>" +
+                              "<p>R:  Siap mas Aris, terima kasih juga.</p><hr><br>" +
+                              "<p>Ok guys. Itulah wawancara singkat penulis bersama Rangga Hanan. Bagi pecinta CSGO, sangat dianjurkan untuk melihat aksi Rangga bermain nantinya. Rangga akan bermain pada tanggal 03/07/2017. Jangan lupa untuk menyaksikan Rangga Hanan di <a href=\"https://www.youtube.com/channel/UCIJ01RpgMcFu6vrViEy2irQ\" target=\"_blank\">Bigetron TV</a> yah guys!</p><br>"
                 }
             };
             _dbContext.Articles.AddRange(articles);
