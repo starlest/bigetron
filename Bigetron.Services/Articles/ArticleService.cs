@@ -54,12 +54,32 @@
         }
 
         /// <summary>
+        /// Gets an article by title
+        /// </summary>
+        /// <param name="title">Article Title</param>
+        /// <returns>Article</returns>
+        public virtual Article GetArticleByTitle(string title)
+        {
+            return _repository.GetOne<Article>(a => a.Title.ToLowerInvariant().Equals(title.ToLowerInvariant()), a => a.Author);
+        }
+
+        /// <summary>
         /// Inserts an article
         /// </summary>
         /// <param name="article">Article</param>
         public virtual void InsertArticle(Article article)
         {
             _repository.Create(article);
+            _repository.Save();
+        }
+
+        /// <summary>
+        /// Updates an article
+        /// </summary>
+        /// <param name="article">Article</param>
+        public virtual void UpdateArticle(Article article)
+        {
+            _repository.Update(article);
             _repository.Save();
         }
         #endregion

@@ -1,0 +1,105 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Roboto", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background-color: white;
+}
+
+.btn-raised {
+    box-shadow: 0 3px 0 0 #bbc;
+}
+
+.btn-link {
+    cursor: pointer;
+}
+
+.fix-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.section-header {
+    border-left: 4px solid;
+    border-color: #df283d;
+}
+
+/**
+ng2-modal fix
+ */
+.fade.in {
+    opacity: 1;
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.modal-backdrop.in {
+    opacity: 0.5;
+}
+
+/* Spinner */
+/*https://github.com/webkul/csspin/blob/master/css/csspin-round.css*/
+.cp-spinner {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative
+}
+
+.cp-round:before {
+    border-radius: 50%;
+    content: " ";
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-top: solid 6px #bababa;
+    border-right: solid 6px #bababa;
+    border-bottom: solid 6px #bababa;
+    border-left: solid 6px #bababa;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.cp-round:after {
+    border-radius: 50%;
+    content: " ";
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 6px solid transparent;
+    border-top-color: #007FBB;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: cp-round-animate 1s ease-in-out infinite
+}
+
+@keyframes cp-round-animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -32,10 +32,24 @@
         /// <returns>Article</returns>
         Article GetArticleById(int id);
 
+
+        /// <summary>
+        /// Gets an article by title
+        /// </summary>
+        /// <param name="title">Article Title</param>
+        /// <returns>Article</returns>
+        Article GetArticleByTitle(string title);
+
         /// <summary>
         /// Inserts an article
         /// </summary>
         /// <param name="article">Article</param>
         void InsertArticle(Article article);
+
+        /// <summary>
+        /// Updates an article
+        /// </summary>
+        /// <param name="article">Article</param>
+        void UpdateArticle(Article article);
     }
 }

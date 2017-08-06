@@ -8,9 +8,10 @@ using Bigetron.Data;
 namespace Bigetron.Migrations
 {
     [DbContext(typeof(BTRDbContext))]
-    partial class BTRDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170708162323_Change title to unique")]
+    partial class Changetitletounique
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.2")

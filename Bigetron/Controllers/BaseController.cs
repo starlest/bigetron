@@ -7,7 +7,7 @@
     using Microsoft.AspNetCore.Mvc;
     using Newtonsoft.Json;
 
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class BaseController : Controller
     {
         #region Protected Fields

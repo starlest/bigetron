@@ -18,6 +18,7 @@
     using Microsoft.EntityFrameworkCore.Infrastructure;
     using Microsoft.IdentityModel.Tokens;
     using Services.Articles;
+    using Microsoft.AspNetCore.Rewrite;
 
     public class Startup
     {
@@ -111,6 +112,9 @@
                 options.ClaimsIdentity.RoleClaimType = OpenIdConnectConstants.Claims.Role;
             });
 
+            // Prerender: Add Options.
+            services.AddOptions();
+
             // Add ApplicationDbContext's DbSeeder
             services.AddSingleton<DbSeeder>();
 
@@ -119,10 +123,30 @@
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, DbSeeder dbSeeder)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory,
+            DbSeeder dbSeeder)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
+
+            // Configure a rewrite rule to auto-lookup for standard files such index.html.
+            app.UseDefaultFiles();
+
+            // Serve static files (html, css, js, images & more)
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                OnPrepareResponse = context =>
+                {
+                    // Disable caching for all static files.
+                    context.Context.Response.Headers["Cache-Control"] =
+                        Configuration["StaticFiles:Headers:Cache-Control"];
+                    context.Context.Response.Headers["Pragma"] = Configuration["StaticFiles:Headers:Pragma"];
+                    context.Context.Response.Headers["Expires"] = Configuration["StaticFiles:Headers:Expires"];
+                }
+            });
+
+            // Rewrite requests
+            app.UseRewriter(new RewriteOptions().AddIISUrlRewrite(env.ContentRootFileProvider, "web.config"));
 
             // Enable CORS for middleware
             app.UseCors(builder =>
